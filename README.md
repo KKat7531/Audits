@@ -59,7 +59,7 @@ The following number of issues were found, categorized by their severity:
 | [I-01] | Use latest Solidity version with a stable pragma statement.                                                          | Informational    |
 | [I-02] | Empty fallback/receive functions in `PunkBids.sol`                                                                   | Informational    |
 | [I-03] | `public` functions not called by the contract should be declared `external` instead                                  | Informational    |
-| [I-04] | File does not contain a `SPDX Identifier`                                                                             | Informational    |
+| [I-04] | File does not contain a `SPDX Identifier`                                                                            | Informational    |
 | [G-01] | `x = x + y` costs less gas than `x += y` , same for subtraction                                                      | Gas-Optimization |
 | [G-02] | Expressions for constant values such as a call to keccak256, should use `immutable` rather than `constant`.          | Gas-Optimization |
 | [G-03] | Use prefix not postfix in loops                                                                                      | Gas-Optimization |
