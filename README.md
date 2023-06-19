@@ -88,7 +88,7 @@ As seen below, `setFeeRate`  and `setLocalFeeRate` allows the Owner to set a n
 
         emit LocalFeeRateUpdated(localFeeRate);
 ```
-This two functions are used to set the fees that owner receives, whenever a user chooses to bid with WETH for a specific `CryptoPunk` and to buy it. Having this privilege without upper limit definition implemented, owner can change the fee price to a bigger amount which may be bigger than then actual price of the particular asset or bigger than the bid that user is willing to pay for it.
+This two functions are used to set the fees that owner receives, whenever a user chooses to bid with WETH for a specific `CryptoPunk` and to buy it. Having this privilege without upper limit definition implemented, `Owner` can change the fee price to a bigger amount which may be bigger than then actual price of the particular asset or bigger than the bid, that user is willing to pay for it.
 
 ## Recommendation
 
