@@ -53,7 +53,7 @@ The following number of issues were found, categorized by their severity:
 
 | ID     | Title                                                                                                                | Severity         |
 | ------ | -------------------------------------------------------------------------------------------------------------------- | --------         |
-| [M-01] | Missing upper limit definition in `setFeeRate` and `setLocalFeeRate`                                                 | Medium           |
+| [M-01]| Missing upper limit definition in `setFeeRate` and `setLocalFeeRate`                                                 | Medium           |
 | [L-01] | Use a two-step ownership transfer approach                                                                           | Low              |
 | [L-02] | Usage of `ecrecover` should be replaced with usage of OpenZeppelin's ECDSA library                                   | Low              |
 | [I-01] | Use latest Solidity version with a stable pragma statement.                                                          | Informational    |
