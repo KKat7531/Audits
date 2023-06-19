@@ -128,6 +128,7 @@ Since a function is not called from within a contract, using `external` instead 
 `File: StringUtils.sol`
 
 
+
 # Gas optimization findings
 
 # [G-01] `x = x + y` costs less gas than `x += y` , same for subtraction 
